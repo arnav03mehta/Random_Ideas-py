@@ -31,8 +31,6 @@ while trys > 0 :
             true = True
             while true is True :
                 cmd = input('>>')
-                #if cmd == 'change password' :
-                    #cur.execute('')
                 if cmd == 'inc attempt' :
                     inc = int(input())
                     trys += inc
@@ -47,6 +45,14 @@ while trys > 0 :
                     new_username = input('Enter new username: ')
                     new_password = input('Enter new password: ')
                     cur.execute('insert into pass values ( ' + '\'' + new_username + '\' ,' + '\'' + new_password + '\' )')
+                    print()
+                    print()
+                    print()
+                    print()
+                    print()
+                    print()
+                    print()
+
                     true = False
                     break
                 elif cmd == 'exit' :
@@ -75,6 +81,8 @@ while trys > 0 :
         print()
         print()
         print()
+    #if cmd == 'change password' :
+    #cur.execute('')
     else :
         print('Incorrect Password')
         trys = trys - 1
