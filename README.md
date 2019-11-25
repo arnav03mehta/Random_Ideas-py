@@ -5,6 +5,8 @@ modules required to run the code are as follows :-
   1. opencv
   2. mysql.connector
   3. numpy
+  4. bueatifulsoup
+  5. smtplib
 
 You will need to change the SQL database informatiom acourding to your database in password system.
 
