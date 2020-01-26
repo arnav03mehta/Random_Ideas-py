@@ -7,6 +7,8 @@ modules required to run the code are as follows :-
   3. numpy
   4. bueatifulsoup
   5. smtplib
+  6. requests
+  7. selenium
 
 You will need to change the SQL database informatiom acourding to your database in password system.
 
