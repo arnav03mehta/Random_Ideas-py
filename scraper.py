@@ -39,7 +39,7 @@ def send_mail():
     server.starttls
     server.ehlo()
 
-    server.login('arnavskate@gmail.com', 'skaterno1')
+    server.login('arnavskate@gmail.com', 'password')
     subject = 'Hey! price fell down!! '
     body = ' Check it out now ! (link): https://www.amazon.in/gp/product/B07WLL998K/ref=ox_sc_act_title_1?smid=A14CZOWI0VEHLG&psc=1'
     msg = f"Subject : {subject} \n \n {body} "
